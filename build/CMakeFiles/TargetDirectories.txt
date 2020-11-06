@@ -1,0 +1,6 @@
+C:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build/CMakeFiles/ZERO_CHECK.dir
+C:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build/QueueLib/CMakeFiles/QueueLib.dir
+C:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build/main/CMakeFiles/main.dir
+C:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build/gtest/CMakeFiles/gtest.dir
+C:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build/test/CMakeFiles/MP2_TESTS.dir

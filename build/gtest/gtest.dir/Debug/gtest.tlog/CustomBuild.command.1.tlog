@@ -1,0 +1,10 @@
+^C:\USERS\DUDE_\ONEDRIVE\РАБОЧИЙ СТОЛ\LABS\QUEUE\LAB4\GTEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4" "-BC:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build" --check-stamp-file "C:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build/gtest/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^C:\USERS\DUDE_\ONEDRIVE\РАБОЧИЙ СТОЛ\LABS\QUEUE\LAB4\BUILD\CMAKEFILES\94D6D8BFDF2C07A292F7A80F151097E4\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4" "-BC:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/dude_/OneDrive/Рабочий стол/Labs/Queue/Lab4/build/Lab4_Queue.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
